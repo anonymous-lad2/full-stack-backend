@@ -3,6 +3,7 @@ package com.codewithme.fullstack_backend.model;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "user")
 public class User {
 
     @Id
